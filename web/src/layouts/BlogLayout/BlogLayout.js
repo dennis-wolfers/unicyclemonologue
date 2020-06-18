@@ -4,7 +4,9 @@ const BlogLayout = ({ children }) => {
   return (
     <>
       <header>
-        <h1>UnicycleMonologue</h1>
+        <h1>
+          <Link to={routes.home()}>UnicycleMonologue</Link>
+        </h1>
         <nav>
           <ul>
             <li>
